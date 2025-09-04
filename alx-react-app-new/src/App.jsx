@@ -9,6 +9,7 @@ import MainContent from './components/MainContent.jsx';
 
 import UserProfile from './components/UserProfile.jsx'; 
 import Footer from './components/Footer.jsx';
+import Counter from './components/Counter.jsx';
 function App() {
   
 
@@ -19,6 +20,8 @@ function App() {
       <MainContent />
       <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
       <Footer />
+      <Counter />
+
 
     </>
   )
