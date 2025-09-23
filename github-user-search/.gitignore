@@ -1,4 +1,7 @@
 # Logs
+# ...existing code...
+.env
+# ...existing code...
 logs
 *.log
 npm-debug.log*
