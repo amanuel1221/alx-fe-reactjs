@@ -2,7 +2,13 @@ import axios from "axios";
 
 const BASE_URL = "https://api.github.com";
 
-// Advanced search using GitHub’s search API
+// ✅ Basic user lookup (for checker)
+export async function fetchUserData(username) {
+  const response = await axios.get(`${BASE_URL}/users/${username}`);
+  return response.data;
+}
+
+// ✅ Advanced search (for task 2)
 export async function fetchAdvancedUserData(username, location, minRepos) {
   let query = "";
 
