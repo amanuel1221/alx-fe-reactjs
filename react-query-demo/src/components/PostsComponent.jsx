@@ -24,7 +24,7 @@ const PostsComponent = () => {
       </button>
 
       <ul>
-        {data.slice(0, 10).map((post) => ( // Display first 10 posts for demo
+        {data.slice(0, 10).map((post) => (
           <li key={post.id} className="border p-2 mb-2 rounded">
             <h2 className="font-bold">{post.title}</h2>
             <p>{post.body}</p>
