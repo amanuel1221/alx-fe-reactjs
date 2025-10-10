@@ -8,7 +8,7 @@ const TodoList = () => {
   ]);
 
   const addTodo = (text) => {
-    if (text.trim() === "") return;
+    if (!text.trim()) return;
     const newTodo = { id: Date.now(), text, completed: false };
     setTodos([...todos, newTodo]);
   };
@@ -37,11 +37,13 @@ const TodoList = () => {
             onClick={() => toggleTodo(todo.id)}
             style={{
               textDecoration: todo.completed ? "line-through" : "none",
-              cursor: "pointer",
             }}
           >
             {todo.text}
-            <button onClick={() => deleteTodo(todo.id)} data-testid="delete-btn">
+            <button
+              data-testid="delete-btn"
+              onClick={() => deleteTodo(todo.id)}
+            >
               Delete
             </button>
           </li>
