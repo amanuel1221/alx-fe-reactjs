@@ -55,7 +55,6 @@ const RegistrationForm = () => {
           name="password"
           type="password"
           value={formData.password}
-          onChange={handleChange}
         />
       </div>
       {error && <p style={{ color: "red" }}>{error}</p>}

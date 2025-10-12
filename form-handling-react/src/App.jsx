@@ -1,8 +1,15 @@
 import React from "react";
-import FormikForm from "./form-handling/FormikForm";
+import RegistrationForm from "./Components/RegistrationForm";
+import FormikForm from "./components/FormikForm";
 
 function App() {
-  return <FormikForm />;
+  return (
+    <div className="p-6">
+      <RegistrationForm />
+      <hr className="my-6" />
+      <FormikForm />
+    </div>
+  );
 }
 
 export default App;
