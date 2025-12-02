@@ -7,7 +7,7 @@ A React app that lets you search for GitHub users and view their profile informa
 
 🧑‍💻 Features
 
-Search GitHub users by username
+## Search GitHub users by username
 
 View user profile details: avatar, bio, followers, following, public repos
 
@@ -15,7 +15,7 @@ Browse user’s public repositories
 
 Responsive design for desktop and mobile
 
-🛠 Tech Stack
+### 🛠 Tech Stack
 
 Frontend: React (Vite)
 
@@ -34,22 +34,24 @@ Node.js v14+
 
 npm or yarn
 
-Installation & Running Locally
+### Installation & Running Locally
 git clone https://github.com/amanuel1221/alx-fe-reactjs.git
 cd alx-fe-reactjs/github-user-search
 npm install
 npm run dev
 
 
-Open http://localhost:5173 (or the port shown in terminal) to see the app.
+## Live Demo
+
+(https://alx-fe-reactjs-github-pi.vercel.app/ 
 
 Build for Production
 npm run build
 
 
-The build output will be in the dist/ folder (Vite production build).
+### The build output will be in the dist/ folder (Vite production build).
 
-💡 Usage
+## 💡 Usage
 
 Enter a GitHub username in the search input.
 
@@ -59,7 +61,7 @@ The user’s profile and repositories are displayed.
 
 Click on a repository (if implemented) to view more details.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 Add loading and error states (User not found, spinner)
 
@@ -73,7 +75,7 @@ Unit tests with Jest + React Testing Library
 
 Deploy to production (Netlify / Vercel) and add live demo link
 
-📁 Suggested Folder Layout
+## 📁 Suggested Folder Layout
 github-user-search/
 ├─ src/
 │  ├─ components/
@@ -89,7 +91,7 @@ github-user-search/
 ├─ package.json
 └─ README.md
 
-👨‍💼 Why This Project Matters
+## 👨‍💼 Why This Project Matters
 
 This project demonstrates:
 
