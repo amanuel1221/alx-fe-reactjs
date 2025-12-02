@@ -1,12 +1,82 @@
-# React + Vite
+# My Company Frontend Projects — React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based to-do list application, part of my “My Company” frontend collection. This app lets users manage a simple to-do list: add tasks, mark them as done/undone, and delete tasks.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✅ Features  
+- Display initial todos  
+- Add new todos  
+- Toggle completion status of todos  
+- Delete todos  
+- Clean UI using React with functional components & hooks  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started  
+
+### Prerequisites  
+- Node.js (>= 14.x is recommended)  
+- npm or yarn  
+
+### Installation & Running Locally  
+```bash
+# Clone the repository  
+git clone https://github.com/amanuel1221/alx-fe-reactjs.git  
+
+# Navigate to the todo app directory  
+cd alx-fe-reactjs/react-todo  
+
+# Install dependencies  
+npm install        # or: yarn install  
+
+# Run the development server  
+npm run dev        # or: yarn dev  
+Then open http://localhost:3000 (or the port shown in console) in your browser.
+
+🧪 Testing
+This project includes test coverage using Jest and React Testing Library.
+
+Run the tests with:
+
+bash
+Copy code
+npm test
+To run in watch mode (rerun on changes):
+
+bash
+Copy code
+npm test -- --watch
+🎯 Usage / Demo
+A live demo of the application is deployed here:
+https://alx-fe-reactjs-todo.vercel.app/
+
+🔧 Project Structure (example)
+php
+Copy code
+react-todo/
+│── src/
+│    ├── components/        # React components (e.g. TodoItem, TodoList, Form)  
+│    ├── App.jsx            # Main app component  
+│    ├── index.jsx          # Entry point  
+│── public/                  # Static files  
+│── package.json            # Project metadata & dependencies  
+│── README.md               # This file  
+📈 Future Improvements / Roadmap
+Persist todos in localStorage so tasks remain after reload
+
+Allow editing of existing tasks
+
+Add due-dates / priority / categories to tasks
+
+Improve styling / responsiveness (mobile friendly)
+
+Add filters: show only completed / active tasks
+
+👤 Author
+Amanuel — front-end developer & ALX student
+
+📄 License
+This project is open-source and free to use for personal or educational purposes. 
+
+ 
