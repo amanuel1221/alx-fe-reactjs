@@ -1,7 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
-const RecipeDetail = () => {
+function RecipeDetail() {
   const { id } = useParams();
   const [recipe, setRecipe] = useState(null);
 
