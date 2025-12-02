@@ -1,6 +1,6 @@
 import { useState } from "react";
-
-const AddRecipeForm = () => {
+  
+function AddRecipeForm() {
   const [formData, setFormData] = useState({
     title: "",
     ingredients: "",
@@ -10,7 +10,7 @@ const AddRecipeForm = () => {
   const [errors, setErrors] = useState({});
   const [success, setSuccess] = useState(false);
 
-  // ✅ Validation function
+ 
   const validate = () => {
     const newErrors = {};
 
@@ -36,7 +36,7 @@ const AddRecipeForm = () => {
     return Object.keys(newErrors).length === 0;
   };
 
-  // ✅ Handle form submit
+ 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validate()) {
@@ -49,7 +49,7 @@ const AddRecipeForm = () => {
     }
   };
 
-  // ✅ Handle input changes
+  
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -68,7 +68,7 @@ const AddRecipeForm = () => {
         )}
 
         <form onSubmit={handleSubmit} className="space-y-4">
-          {/* Title */}
+        
           <div>
             <label className="block text-gray-700 font-medium mb-2">
               Recipe Title
@@ -88,7 +88,7 @@ const AddRecipeForm = () => {
             )}
           </div>
 
-          {/* Ingredients */}
+       
           <div>
             <label className="block text-gray-700 font-medium mb-2">
               Ingredients (comma separated)
@@ -108,7 +108,7 @@ const AddRecipeForm = () => {
             )}
           </div>
 
-          {/* Steps */}
+          
           <div>
             <label className="block text-gray-700 font-medium mb-2">
               Preparation Steps
@@ -128,7 +128,7 @@ const AddRecipeForm = () => {
             )}
           </div>
 
-          {/* Submit Button */}
+         
           <button
             type="submit"
             className="w-full bg-indigo-500 text-white py-2 rounded-lg hover:bg-indigo-600 transition-all"
