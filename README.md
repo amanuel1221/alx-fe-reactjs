@@ -38,21 +38,13 @@ The repository contains multiple small to medium projects that demonstrate my gr
 | Project | Description | Live Demo |
 |---------|-------------|-----------|
 | **Recipe Sharing Platform** (`recipe-sharing-platform`) | Search and share recipes, view recipe details, save favorites, responsive design, Firebase integration | *Add your live URL* |
-| **GitHub User Search** (`github-user-search`) | Search GitHub users, view profile and repositories, responsive UI | *Add live URL* |
+| **GitHub User Search** (`github-user-search`) | Search GitHub users, view profile and repositories, responsive UI | [ Live Demo ](https://alx-fe-reactjs-github-pi.vercel.app/) |
 | **Recipe Finder App** (`recipe-finder-app`) | Search recipes using TheMealDB API, view details, save favorites, responsive UI | [Live Demo](https://recipe-finder-app-three-ecru.vercel.app/) |
 | **ALX HTML/CSS Headphones Project** (`alx_html_css/headphones`) | Practicing HTML & CSS layouts and responsiveness | - |
 | **Other Mini Projects** (`alx-fe-reactjs`) | Various small apps practicing React fundamentals: components, props, state, routing | - |
 
-> ⚠️ Tip: Include screenshots or GIFs inside each project folder for visual appeal.
-
----
 
 ## 🚀 Getting Started
-
-### Prerequisites
-
-* Node.js v14+
-* npm (or yarn)
 
 ### Installation & Running Locally
 
@@ -68,7 +60,6 @@ npm run build
 The build output will be in the dist/ folder (for Vite).
 
 For projects with React Router, add _redirects (Netlify) or vercel.json (Vercel) to handle client-side routing.
-
 
 
 💡 Usage
